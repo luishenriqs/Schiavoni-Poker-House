@@ -6,7 +6,6 @@ import { IGamesProps } from '.';
 export const Container = styled.View`
   flex: 1;
   align-items: center;
-  background: ${({ theme }) => theme.colors.backgroundLight };
 `;
 
 export const GamesList = styled(

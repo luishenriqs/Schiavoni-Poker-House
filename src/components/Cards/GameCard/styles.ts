@@ -11,7 +11,7 @@ export const Content = styled.View`
   height: 410px;
   align-items: center;
   justify-content: center;
-  margin-top: ${RFValue(-365)}px;
+  margin-top: ${RFValue(-390)}px;
   padding: 15px 0;
   background: ${({ theme }) => theme.colors.backgroundLight };
 `;
