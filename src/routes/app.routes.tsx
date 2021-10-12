@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { History } from '../pages/History';
+import { Logout } from '../pages/Logout';
 import { NewGame } from '../pages/NewGame';
 import { NewPlayer } from '../pages/NewPlayer';
 import { FinancialRoutes } from '../pages/Financial/Financial.routes';
@@ -36,13 +36,6 @@ export function AppRoutes() {
         }}
       />
       <Drawer.Screen 
-        name="History" 
-        component={History}
-        options={{
-          headerShown: false,
-        }}
-      />
-      <Drawer.Screen 
         name="NewGame" 
         component={NewGame}
         options={{
@@ -59,6 +52,13 @@ export function AppRoutes() {
       <Drawer.Screen 
         name="Financeiro" 
         component={FinancialRoutes}
+        options={{
+          headerShown: false,
+        }}
+      />
+      <Drawer.Screen 
+        name="Logout" 
+        component={Logout}
         options={{
           headerShown: false,
         }}

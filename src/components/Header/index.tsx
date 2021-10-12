@@ -27,9 +27,9 @@ const Header: React.FC<HeaderProps> = ({
     <Container>
       <HeaderWrapper headerSize={headerSize}>
         <HeaderContent>
-          <Icon size={30} name="menu" onPress={onPress} />
-          <Title>{title}</Title>
           <Empty/>
+          <Title>{title}</Title>
+          <Icon size={30} name="menu" onPress={onPress} />
         </HeaderContent>
 
         {text && (
